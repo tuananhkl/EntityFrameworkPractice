@@ -1,0 +1,106 @@
+2023-11-09 15:37:04.6781||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-09 15:37:05.1913||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-09 15:37:05.2686||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 665E0E7D519037D827B9CD63C3EC71BA4D3480D8) 
+2023-11-09 15:37:05.3749||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7272 
+2023-11-09 15:37:05.3749||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5062 
+2023-11-09 15:37:05.3749||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Nov11thPractice 
+2023-11-09 15:37:05.3749||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-09 15:37:05.3749||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-09 15:37:05.3749||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\ 
+2023-11-09 15:37:05.3882||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-09 15:37:05.6917||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMV0VS6TPLD4" received FIN. 
+2023-11-09 15:37:05.7031||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMV0VS6TPLD4" accepted. 
+2023-11-09 15:37:05.7031||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMV0VS6TPLD4" started. 
+2023-11-09 15:37:05.7354||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-09 15:37:05.7652||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMV0VS6TPLD4" stopped. 
+2023-11-09 15:37:05.7652||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMV0VS6TPLD4" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-11-09 15:37:06.0233||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMV0VS6TPLD5" accepted. 
+2023-11-09 15:37:06.0282||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMV0VS6TPLD5" started. 
+2023-11-09 15:37:06.1491||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMV0VS6TPLD5 established using the following protocol: Tls12 
+2023-11-09 15:37:06.2068||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE. 
+2023-11-09 15:37:06.2201||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-09 15:37:06.2201||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-09 15:37:06.2201||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-09 15:37:06.2400||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-09 15:37:06.2461||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" received HEADERS frame for stream ID 1 with length 453 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-09 15:37:06.3103||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-09 15:37:06.3525||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7272/swagger/index.html - - 
+2023-11-09 15:37:06.3606||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-09 15:37:06.3606||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-09 15:37:06.3972||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-11-09 15:37:06.4028||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-09 15:37:06.5459||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-11-09 15:37:06.5459||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending DATA frame for stream ID 1 with length 4750 and flags NONE. 
+2023-11-09 15:37:06.5598||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-09 15:37:06.5598||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7272/swagger/index.html - - - 200 - text/html;charset=utf-8 223.0223ms 
+2023-11-09 15:37:07.5227||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" received HEADERS frame for stream ID 3 with length 107 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-09 15:37:07.5347||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - - 
+2023-11-09 15:37:07.5347||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-09 15:37:07.5424||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-11-09 15:37:07.5424||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-09 15:37:07.6588||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2023-11-09 15:37:07.6588||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending DATA frame for stream ID 3 with length 1751 and flags NONE. 
+2023-11-09 15:37:07.6588||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-09 15:37:07.6588||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.5504ms 
+2023-11-09 15:37:09.9309||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" received HEADERS frame for stream ID 5 with length 40 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-09 15:37:09.9353||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7272/WeatherForecast - - 
+2023-11-09 15:37:09.9353||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-09 15:37:09.9353||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast' 
+2023-11-09 15:37:09.9547||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Nov11thPractice.Controllers.WeatherForecastController.Get (Nov11thPractice)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast' 
+2023-11-09 15:37:09.9547||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Nov11thPractice.Controllers.WeatherForecastController.Get (Nov11thPractice)' 
+2023-11-09 15:37:09.9547||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2023-11-09 15:37:09.9695||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Nov11thPractice.Controllers.WeatherForecastController.Get (Nov11thPractice)' 
+2023-11-09 15:37:09.9796||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Nov11thPractice.WeatherForecast] Get() on controller Nov11thPractice.Controllers.WeatherForecastController (Nov11thPractice). 
+2023-11-09 15:37:09.9796||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-11-09 15:37:09.9796||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-11-09 15:37:09.9796||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-11-09 15:37:09.9796||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-11-09 15:37:09.9967||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-11-09 15:37:09.9967||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Nov11thPractice.Controllers.WeatherForecastController (Nov11thPractice) 
+2023-11-09 15:37:09.9967||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Nov11thPractice.Controllers.WeatherForecastController (Nov11thPractice) 
+2023-11-09 15:37:09.9967||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-09 15:37:09.9967||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-09 15:37:10.0109||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-09 15:37:10.0109||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-09 15:37:10.0109||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Nov11thPractice.Controllers.WeatherForecastController.Get (Nov11thPractice) - Validation state: Valid 
+2023-11-09 15:37:10.0109||INFO|Nov11thPractice.Controllers.WeatherForecastController|Hello I got here 
+2023-11-09 15:37:10.0109||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-09 15:37:10.0109||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-09 15:37:10.0274||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-09 15:37:10.0274||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-09 15:37:10.0274||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Nov11thPractice.Controllers.WeatherForecastController.Get (Nov11thPractice) in 31.7338ms 
+2023-11-09 15:37:10.0274||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Nov11thPractice.Controllers.WeatherForecastController.Get (Nov11thPractice)' 
+2023-11-09 15:37:10.0274||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.Exception: BOOM! Exception has occured
+   at Nov11thPractice.Controllers.WeatherForecastController.Get() in C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\Controllers\WeatherForecastController.cs:line 26
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-09 15:37:10.0583||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2023-11-09 15:37:10.0583||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending DATA frame for stream ID 5 with length 2804 and flags NONE. 
+2023-11-09 15:37:10.0583||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-09 15:37:10.0583||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7272/WeatherForecast - - - 500 - text/plain;+charset=utf-8 126.8563ms 
+2023-11-09 15:38:48.1212||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2023-11-09 15:38:48.1212||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2023-11-09 15:38:48.1212||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" is closing. 
+2023-11-09 15:38:48.1389||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" is closed. The last processed stream ID was 5. 
+2023-11-09 15:38:48.1389||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMV0VS6TPLD5" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2023-11-09 15:38:48.1389||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMV0VS6TPLD5" received FIN. 
+2023-11-09 15:38:48.1389||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMV0VS6TPLD5" stopped. 
+2023-11-09 15:38:48.1389||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMV0VS6TPLD5" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-11-09 15:38:48.1526||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 

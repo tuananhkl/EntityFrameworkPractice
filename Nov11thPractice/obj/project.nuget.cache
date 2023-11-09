@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eMpJ+jM8KyaQZVtCRl7Z6cDyt8dnSCeCcY8EaSADk1FdQoScVp9JEn9o3FuCBa+rbbtuTg9wb7fRWUr0tDu0kA==",
+  "dgSpecHash": "v2mV8c2OxAhzHxFvX2/jrQIIQNNSh7mkFiWi4RRphRosw/GClrbOoJv0jlrUE973SWeMGBoQ7kjJGHAurp6JTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\anh.nguyen50\\Documents\\Rider\\Practice\\Nov\\Nov11thPractice\\Nov11thPractice\\Nov11thPractice.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,10 @@
     "C:\\Users\\anh.nguyen50\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\anh.nguyen50\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\anh.nguyen50\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\anh.nguyen50\\.nuget\\packages\\nlog\\5.2.5\\nlog.5.2.5.nupkg.sha512",
+    "C:\\Users\\anh.nguyen50\\.nuget\\packages\\nlog.database\\5.2.5\\nlog.database.5.2.5.nupkg.sha512",
+    "C:\\Users\\anh.nguyen50\\.nuget\\packages\\nlog.extensions.logging\\5.3.5\\nlog.extensions.logging.5.3.5.nupkg.sha512",
+    "C:\\Users\\anh.nguyen50\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.5\\nlog.web.aspnetcore.5.3.5.nupkg.sha512",
     "C:\\Users\\anh.nguyen50\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\anh.nguyen50\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\anh.nguyen50\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

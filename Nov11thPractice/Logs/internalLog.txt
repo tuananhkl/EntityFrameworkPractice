@@ -1,0 +1,143 @@
+2023-11-09 15:34:45.8862 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:34:45.9713 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:34:45.9957 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:34:45.9957 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:34:46.0192 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:34:46.0545 Info Validating config: TargetNames=database, file1, ConfigItems=74, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:34:46.0635 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:34:46.1459 Info Configuration initialized.
+2023-11-09 15:34:46.4520 Info Validating config: TargetNames=database, file1, ConfigItems=74, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:34:46.4694 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2023-11-09 15:36:58.5807 Info Shutdown() called. Logger closing...
+2023-11-09 15:36:58.5807 Info Closing old configuration.
+2023-11-09 15:36:58.5928 Info Logger has been closed down.
+2023-11-09 15:37:04.2144 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:37:04.2781 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:37:04.2990 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:37:04.2990 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:37:04.3205 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:37:04.3462 Info Validating config: TargetNames=database, file1, ConfigItems=75, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:37:04.3552 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:37:04.4053 Info Configuration initialized.
+2023-11-09 15:37:04.6041 Info Validating config: TargetNames=database, file1, ConfigItems=75, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:37:04.6166 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2023-11-09 15:38:48.1526 Info Shutdown() called. Logger closing...
+2023-11-09 15:38:48.1526 Info Closing old configuration.
+2023-11-09 15:38:48.1765 Info Logger has been closed down.
+2023-11-09 15:38:54.2841 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:38:54.3358 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:38:54.3509 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:38:54.3550 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:38:54.3744 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:38:54.3949 Info Validating config: TargetNames=database, file1, ConfigItems=74, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:38:54.4038 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:38:54.4473 Info Configuration initialized.
+2023-11-09 15:38:54.5621 Info Validating config: TargetNames=database, file1, ConfigItems=74, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:38:54.5621 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2023-11-09 15:39:50.1889 Info Shutdown() called. Logger closing...
+2023-11-09 15:39:50.1889 Info Closing old configuration.
+2023-11-09 15:39:50.2021 Info Logger has been closed down.
+2023-11-09 15:39:56.9374 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:39:56.9998 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:39:57.0235 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:39:57.0277 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:39:57.0466 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:39:57.0747 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:39:57.0747 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:39:57.1334 Info Configuration initialized.
+2023-11-09 15:39:57.2732 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:39:57.2889 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2023-11-09 15:41:59.2211 Info Shutdown() called. Logger closing...
+2023-11-09 15:41:59.2211 Info Closing old configuration.
+2023-11-09 15:41:59.2353 Info Logger has been closed down.
+2023-11-09 15:42:06.2429 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:42:06.3824 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:42:06.4112 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:42:06.4112 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:42:06.4375 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:42:06.4638 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:42:06.4734 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:42:06.5218 Info Configuration initialized.
+2023-11-09 15:42:06.6629 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:42:06.6753 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2023-11-09 15:44:11.0971 Info Shutdown() called. Logger closing...
+2023-11-09 15:44:11.0971 Info Closing old configuration.
+2023-11-09 15:44:11.1108 Info Logger has been closed down.
+2023-11-09 15:44:19.2110 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:44:19.2670 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:44:19.2837 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:44:19.2837 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:44:19.3037 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:44:19.3250 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:44:19.3250 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:44:19.3724 Info Configuration initialized.
+2023-11-09 15:44:19.4798 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:44:19.4798 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2023-11-09 15:45:27.6292 Info Shutdown() called. Logger closing...
+2023-11-09 15:45:27.6292 Info Closing old configuration.
+2023-11-09 15:45:27.6433 Info Logger has been closed down.
+2023-11-09 15:45:34.9870 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:45:35.0400 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:45:35.0566 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:45:35.0566 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:45:35.0769 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:45:35.0968 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:45:35.1054 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:45:35.1451 Info Configuration initialized.
+2023-11-09 15:45:35.2620 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:45:35.2620 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Debug has been skipped.
+2023-11-09 15:48:06.7917 Info Shutdown() called. Logger closing...
+2023-11-09 15:48:06.8065 Info Closing old configuration.
+2023-11-09 15:48:06.8065 Info Logger has been closed down.
+2023-11-09 15:48:11.3689 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:48:11.4197 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:48:11.4346 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:48:11.4346 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:48:11.4538 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:48:11.4742 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:48:11.4821 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:48:11.5224 Info Configuration initialized.
+2023-11-09 15:48:11.6411 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:48:11.6545 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Warn has been skipped.
+2023-11-09 15:48:39.6097 Info Shutdown() called. Logger closing...
+2023-11-09 15:48:39.6097 Info Closing old configuration.
+2023-11-09 15:48:39.6230 Info Logger has been closed down.
+2023-11-09 15:48:45.8692 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 15:48:45.9207 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 15:48:45.9366 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 15:48:45.9366 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 15:48:45.9568 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 15:48:45.9774 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:48:45.9858 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 15:48:46.0297 Info Configuration initialized.
+2023-11-09 15:48:46.1922 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 15:48:46.2046 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Warn has been skipped.
+2023-11-09 15:50:00.5019 Info Shutdown() called. Logger closing...
+2023-11-09 15:50:00.5019 Info Closing old configuration.
+2023-11-09 15:50:00.5163 Info Logger has been closed down.
+2023-11-09 16:08:15.8723 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 16:08:15.9200 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 16:08:15.9200 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 16:08:15.9379 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 16:08:15.9533 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 16:08:15.9754 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 16:08:15.9831 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 16:08:16.0257 Info Configuration initialized.
+2023-11-09 16:08:16.1694 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 16:08:16.1801 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Warn has been skipped.
+2023-11-09 16:10:58.4807 Info Shutdown() called. Logger closing...
+2023-11-09 16:10:58.4807 Info Closing old configuration.
+2023-11-09 16:10:58.4941 Info Logger has been closed down.
+2023-11-09 16:11:07.1414 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-09 16:11:07.1962 Info Registered target NLog.Targets.DatabaseTarget(Name=database)
+2023-11-09 16:11:07.2120 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-09 16:11:07.2169 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-09 16:11:07.2358 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-09 16:11:07.2574 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 16:11:07.2666 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-09 16:11:07.3095 Info Configuration initialized.
+2023-11-09 16:11:07.4416 Info Validating config: TargetNames=database, file1, ConfigItems=73, FilePath=C:\Users\anh.nguyen50\Documents\Rider\Practice\Nov\Nov11thPractice\Nov11thPractice\bin\Debug\net6.0\NLog.config
+2023-11-09 16:11:07.4533 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: DatabaseTarget(Name=database). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Warn has been skipped.
+2023-11-09 16:12:22.2128 Info Shutdown() called. Logger closing...
+2023-11-09 16:12:22.2128 Info Closing old configuration.
+2023-11-09 16:12:22.2374 Info Logger has been closed down.

@@ -21,6 +21,10 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
+        _logger.LogError($"Hello I got here: {ControllerContext.ActionDescriptor.ActionName} action method");
+
+        //throw new Exception("BOOM! Exception has occured");
+        
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
